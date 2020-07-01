@@ -24,7 +24,8 @@
   "author": "Kristian V. <kristian@vestermark.me>",
   "license": "MIT",
   "dependencies": {
-    "ramda": "^0.26.1"
+    "ramda": "^0.26.1",
+    "react-datepicker": "^3.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.4",

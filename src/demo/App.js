@@ -5,25 +5,14 @@ import { DashReactDatepicker } from '../lib';
 
 class App extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            value: ''
-        };
-        this.setProps = this.setProps.bind(this);
-    }
-
-    setProps(newProps) {
-        this.setState(newProps);
+    constructor(props) {
+        super(props);
     }
 
     render() {
         return (
             <div>
-                <DashReactDatepicker
-                    setProps={this.setProps}
-                    {...this.state}
-                />
+                <DashReactDatepicker/>
             </div>
         )
     }

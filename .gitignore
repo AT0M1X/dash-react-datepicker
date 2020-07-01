@@ -13,3 +13,4 @@ venv/
 *.log
 .idea/
 .DS_Store
+usage.py
