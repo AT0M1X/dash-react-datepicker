@@ -1,8 +1,8 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-dashReactDatepicker <- function(id=NULL, label=NULL, value=NULL) {
+dashReactDatepicker <- function(id=NULL, selected=NULL, dateFormat=NULL, placeholderText=NULL, showTimeSelect=NULL, showTimeSelectOnly=NULL, timeFormat=NULL, timeIntervals=NULL, timeCaption=NULL) {
     
-    props <- list(id=id, label=label, value=value)
+    props <- list(id=id, selected=selected, dateFormat=dateFormat, placeholderText=placeholderText, showTimeSelect=showTimeSelect, showTimeSelectOnly=showTimeSelectOnly, timeFormat=timeFormat, timeIntervals=timeIntervals, timeCaption=timeCaption)
     if (length(props) > 0) {
         props <- props[!vapply(props, is.null, logical(1))]
     }
@@ -10,7 +10,7 @@ dashReactDatepicker <- function(id=NULL, label=NULL, value=NULL) {
         props = props,
         type = 'DashReactDatepicker',
         namespace = 'dash_react_datepicker',
-        propNames = c('id', 'label', 'value'),
+        propNames = c('id', 'selected', 'dateFormat', 'placeholderText', 'showTimeSelect', 'showTimeSelectOnly', 'timeFormat', 'timeIntervals', 'timeCaption'),
         package = 'dashReactDatepicker'
         )
 

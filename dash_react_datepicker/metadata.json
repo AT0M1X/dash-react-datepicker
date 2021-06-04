@@ -41,7 +41,7 @@
           "name": "string"
         },
         "required": false,
-        "description": "",
+        "description": "Selected date. Updates when a new date or time is selected in the datepicker.\nAccepts and returns strings in ISO 8601 format.",
         "defaultValue": {
           "value": "null",
           "computed": false
@@ -52,7 +52,7 @@
           "name": "string"
         },
         "required": false,
-        "description": "",
+        "description": "Format to display date and time when selected.",
         "defaultValue": {
           "value": "'dd.MM.yyyy'",
           "computed": false
@@ -63,7 +63,7 @@
           "name": "string"
         },
         "required": false,
-        "description": "",
+        "description": "Placeholder text to display before a value is selected.",
         "defaultValue": {
           "value": "null",
           "computed": false
@@ -74,7 +74,7 @@
           "name": "bool"
         },
         "required": false,
-        "description": "",
+        "description": "Whether to show time selection.",
         "defaultValue": {
           "value": "false",
           "computed": false
@@ -85,7 +85,7 @@
           "name": "bool"
         },
         "required": false,
-        "description": "",
+        "description": "Whether to only show time selection. Should only be used with showTimeSelect=True.",
         "defaultValue": {
           "value": "false",
           "computed": false
@@ -96,7 +96,7 @@
           "name": "string"
         },
         "required": false,
-        "description": "",
+        "description": "Format to display times in the picker.",
         "defaultValue": {
           "value": "'HH:mm'",
           "computed": false
@@ -107,7 +107,7 @@
           "name": "number"
         },
         "required": false,
-        "description": "",
+        "description": "Intervals of time to display in the picker. Should only be used with showTimeSelect=True.",
         "defaultValue": {
           "value": "30",
           "computed": false
@@ -118,7 +118,7 @@
           "name": "string"
         },
         "required": false,
-        "description": "",
+        "description": "Caption for the time picker.",
         "defaultValue": {
           "value": "'Time'",
           "computed": false
